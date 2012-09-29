@@ -1,14 +1,6 @@
-# Spring MVC and Hibernate template application
+# README
 
-This is a template for a web application that uses Spring MVC and Hibernate. The sample code is a simple CRUD page that manipulates records for a single model object.
+This is a repository for my remedial attempt at a Java web app.
 
-## Running the application locally
-
-First build with:
-
-    $mvn clean install
-
-Then run it with:
-
-    $java -jar target/dependency/webapp-runner.jar target/*.war
+I've leaned heavily on the Heroku framework while leveraging Salesforce.com's web-to-lead integration with my developer SFDC sandbox. 
 
