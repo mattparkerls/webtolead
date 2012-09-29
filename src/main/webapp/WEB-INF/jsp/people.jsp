@@ -5,7 +5,13 @@
 
 <html>
 <head>
-    <meta charset="utf-8">
+
+
+<!--  Salesforce.com webtolead -------------------------------------------------->
+	<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+<!--  Salesforce.com webtolead -------------------------------------------------->
+
+    <!--  <meta charset="utf-8"> -->
     <title>Spring MVC and Hibernate Template</title>
 
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -39,14 +45,25 @@
             <div class="page-header">
                 <h1>Simple CRUD Page</h1>
             </div>
-            <form:form method="post" action="add" commandName="person" class="form-vertical">
+ 
+<!--  Salesforce.com webtolead -------------------------------------------------->           
+            <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="form-vertical">
 
-                <form:label path="firstName">First Name</form:label>
-                <form:input path="firstName" />
-                <form:label path="lastName">Last Name</form:label>
-                <form:input path="lastName" />
-                <input type="submit" value="Add Person" class="btn"/>
-            </form:form>
+			<input type=hidden name="oid" value="00DE0000000ZbkG">
+			<input type=hidden name="retURL" value="http://mattparker-webtolead.herokuapp.com/people/">
+<!--  Salesforce.com webtolead -------------------------------------------------->
+
+
+			<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+			<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+			<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+			<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+                <input type="submit" value="Submit" class="btn"/>
+            </form>
 
 
             <c:if  test="${!empty peopleList}">
