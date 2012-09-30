@@ -75,7 +75,7 @@
       IMPORTANT:
       This is Heroku specific markup. Remove to customize.
       -->
-      <a href="https://github.com/mattparkerls/webtolead" class="brand" id="heroku"><strong>code</strong></a>
+      <a href="https://github.com/mattparkerls/webtolead" class="brand" id="heroku"><strong>github</strong></a>
       <!-- /// -->
     </div>
   </div>
