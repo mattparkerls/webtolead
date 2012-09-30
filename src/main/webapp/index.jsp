@@ -75,7 +75,7 @@
       IMPORTANT:
       This is Heroku specific markup. Remove to customize.
       -->
-      <a href="/" class="brand" id="heroku">by <strong>heroku</strong></a>
+      <a href="https://github.com/mattparkerls/webtolead" class="brand" id="heroku"><strong>code</strong></a>
       <!-- /// -->
     </div>
   </div>
@@ -91,9 +91,6 @@
 
 <div style="margin-bottom: 20px">
   Please feel free to send some leads my way: <a href="/people/">Web to Lead form</a>.
-</div>
-<div style="margin-bottom: 20px">
-	Code: <a href="https://github.com/mattparkerls/webtolead">repo</a>
 </div>
 
 
