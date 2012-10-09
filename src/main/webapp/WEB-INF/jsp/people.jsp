@@ -33,8 +33,8 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <a href="/" class="brand">Matt Parker</a>
-            <a href="https://github.com/mattparkerls/webtolead" class="brand" id="heroku"><strong>github</strong></a>
+            <a href="/" class="brand">Back</a>
+            <a href="https://github.com/mattparkerls/webtolead" class="brand" id="heroku"><strong>github repo</strong></a>
         </div>
     </div>
 </div>
